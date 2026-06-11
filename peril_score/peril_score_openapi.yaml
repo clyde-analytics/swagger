@@ -5,6 +5,8 @@ info:
   description: Minimal OpenAPI definition for the Peril Score portal lookup endpoint.
 
 servers:
+  - url: https://app3.clyde-analytics.com/
+    description:
   - url: http://localhost/
     description:
 
