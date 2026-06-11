@@ -6,9 +6,9 @@ info:
 
 servers:
   - url: https://app3.clyde-analytics.com/
-    description:
+    description: Production
   - url: http://localhost/
-    description:
+    description: Local
 
 tags:
   - name: Lookup
@@ -91,15 +91,15 @@ paths:
             text/plain:
               schema:
                 type: string
-                examples:
-                  fileNotFound:
-                    value: Lookup file not found
-                  fileOpenError:
-                    value: Unable to open lookup file
-                  fileEmpty:
-                    value: Lookup file is empty
-                  missingColumns:
-                    value: Lookup file is missing required columns
+              examples:
+                fileNotFound:
+                  value: Lookup file not found
+                fileOpenError:
+                  value: Unable to open lookup file
+                fileEmpty:
+                  value: Lookup file is empty
+                missingColumns:
+                  value: Lookup file is missing required columns
 
 components:
   securitySchemes:
