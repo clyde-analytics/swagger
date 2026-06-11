@@ -15,7 +15,7 @@ tags:
     description: Portal lookup items
 
 paths:
-  /scripts/portal_lookup_peril_score_swagger.php:
+  /scoring_engine/portal_lookup_peril_score_swagger.php:
     get:
       tags:
         - Lookup
