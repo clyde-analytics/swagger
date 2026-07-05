@@ -1,4 +1,4 @@
-# History files
+﻿# History files
 .Rhistory
 .Rapp.history
 
@@ -40,7 +40,6 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
 
 # translation temp files
 po/*~

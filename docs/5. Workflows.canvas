@@ -1,0 +1,13 @@
+﻿{
+  "nodes": [
+    {"id":"openapi","type":"text","text":"OpenAPI YAML\nperil_score_openapi.yaml","x":0,"y":0,"width":280,"height":95},
+    {"id":"html","type":"file","file":"2. Code.md","x":360,"y":0,"width":280,"height":115},
+    {"id":"publish","type":"text","text":"Static Swagger docs\nindex.html","x":720,"y":0,"width":240,"height":90}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"openapi","fromSide":"right","toNode":"html","toSide":"left"},
+    {"id":"e2","fromNode":"html","fromSide":"right","toNode":"publish","toSide":"left"}
+  ]
+}
+
+

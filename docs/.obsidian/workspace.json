@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "2a084cdd0830b1e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f295d4b016bda9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9f81dd7944eaa5c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "01 Maps/KnowledgeBase Map.canvas",
+                "viewState": {
+                  "x": 60,
+                  "y": 595,
+                  "zoom": -0.8218796064515954
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "KnowledgeBase Map"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00fb423b1b920c58",
+    "type": "split",
+    "children": [
+      {
+        "id": "51b7714639d26e0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9dfb76413d548a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7aeaa448a2abf222",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "086d8d0c64a47ecd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "right": {
+    "id": "ab2201dfaf48ae8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d92c234da9dc65d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c9edf132aa5c9b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "01f47b7896520f9f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4f2c3d3511252537",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3e95f5c842b66383",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "519bb7c38a751bca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e9dfb76413d548a1",
+  "lastOpenFiles": [
+    "02 Projects/Other/Swagger/5. Workflows.canvas",
+    "02 Projects/Other/Swagger/2. Code.md",
+    "02 Projects/Other/Swagger/3. Data.md",
+    "02 Projects/Other/Swagger/1. Overview.md",
+    "02 Projects/Other/Swagger/4. Supporting Files.md",
+    "02 Projects/Other/Flood Models/5. Workflows.canvas",
+    "02 Projects/Other/Flood Models/2. Code.md",
+    "02 Projects/Other/Flood Models/3. Data.md",
+    "02 Projects/Other/Flood Models/1. Overview.md",
+    "02 Projects/Other/Flood Models/4. Supporting Files.md",
+    "02 Projects/Other/Ad Hoc/5. Workflows.canvas",
+    "02 Projects/Other/Ad Hoc/2. Code.md",
+    "02 Projects/Other/Ad Hoc/3. Data.md",
+    "02 Projects/Other/Ad Hoc/1. Overview.md",
+    "02 Projects/Other/Ad Hoc/4. Supporting Files.md",
+    "02 Projects/6. Training/5. Workflows.canvas",
+    "02 Projects/6. Training/2. Code.md",
+    "02 Projects/6. Training/3. Data.md",
+    "02 Projects/6. Training/1. Overview.md",
+    "02 Projects/6. Training/4. Supporting Files.md",
+    "02 Projects/5. OMAP CAR Rating Engine/5. Workflows.canvas",
+    "02 Projects/5. OMAP CAR Rating Engine/2. Code.md",
+    "02 Projects/5. OMAP CAR Rating Engine/3. Data.md",
+    "02 Projects/5. OMAP CAR Rating Engine/1. Overview.md",
+    "02 Projects/5. OMAP CAR Rating Engine/4. Supporting Files.md",
+    "02 Projects/4. FMR Peril Score/5. Workflows.canvas",
+    "02 Projects/4. FMR Peril Score/2. Code.md",
+    "02 Projects/4. FMR Peril Score/3. Data.md",
+    "02 Projects/4. FMR Peril Score/1. Overview.md",
+    "02 Projects/4. FMR Peril Score/4. Supporting Files.md",
+    "02 Projects/3. Tradition Engine/5. Workflows.canvas",
+    "02 Projects/3. Tradition Engine/2. Code.md",
+    "02 Projects/2. BCM Rating Engine/5. Workflows.canvas",
+    "02 Projects/1. Peel Commercial WR/5. Workflows.canvas",
+    "02 Projects/0. United General/5. Workflows.canvas",
+    "02 Projects/Other/Swagger/Workflows.canvas",
+    "02 Projects/Other/Swagger",
+    "02 Projects/Other/Ad Hoc",
+    "02 Projects/Other/Flood Models",
+    "00 Home/KnowledgeBase Docs.base",
+    "999 Ideas",
+    "90 Ideas",
+    "06 ADRs",
+    "03 Systems/Scoring Engine/Scoring Engine Docs.base",
+    "99 Indexes",
+    "05 Patterns"
+  ]
+}

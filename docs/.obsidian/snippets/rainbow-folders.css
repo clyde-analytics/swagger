@@ -1,0 +1,159 @@
+/* Vault-local rainbow folders. No community plugin required.
+   Top-level folders get a generic rainbow cycle. Everything inside follows the top folder color. */
+
+body {
+  --rainbow-folder-text: #242936;
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 1),
+.nav-files-container > div > .nav-folder:nth-child(7n + 1),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 1) {
+  --rainbow-folder-bg: #dd8f9a;
+  --rainbow-folder-bg-hover: #e7a6af;
+  --rainbow-file-bg: rgba(221, 143, 154, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 2),
+.nav-files-container > div > .nav-folder:nth-child(7n + 2),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 2) {
+  --rainbow-folder-bg: #df986f;
+  --rainbow-folder-bg-hover: #e6ad8b;
+  --rainbow-file-bg: rgba(223, 152, 111, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 3),
+.nav-files-container > div > .nav-folder:nth-child(7n + 3),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 3) {
+  --rainbow-folder-bg: #d9c083;
+  --rainbow-folder-bg-hover: #e4cf9d;
+  --rainbow-file-bg: rgba(217, 192, 131, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 4),
+.nav-files-container > div > .nav-folder:nth-child(7n + 4),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 4) {
+  --rainbow-folder-bg: #a6c98d;
+  --rainbow-folder-bg-hover: #b8d6a5;
+  --rainbow-file-bg: rgba(166, 201, 141, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 5),
+.nav-files-container > div > .nav-folder:nth-child(7n + 5),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 5) {
+  --rainbow-folder-bg: #27aeb8;
+  --rainbow-folder-bg-hover: #4fc1ca;
+  --rainbow-file-bg: rgba(39, 174, 184, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n + 6),
+.nav-files-container > div > .nav-folder:nth-child(7n + 6),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n + 6) {
+  --rainbow-folder-bg: #8fa7e8;
+  --rainbow-folder-bg-hover: #a8b9ef;
+  --rainbow-file-bg: rgba(143, 167, 232, 0.72);
+}
+
+.nav-files-container > .nav-folder:nth-child(7n),
+.nav-files-container > div > .nav-folder:nth-child(7n),
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path]:not([data-path*="/"])):nth-child(7n) {
+  --rainbow-folder-bg: #b996e8;
+  --rainbow-folder-bg-hover: #c8acef;
+  --rainbow-file-bg: rgba(185, 150, 232, 0.72);
+}
+
+.nav-files-container .nav-folder > .tree-item-self.nav-folder-title,
+.nav-files-container .nav-folder > .nav-folder-title {
+  background-color: var(--rainbow-folder-bg) !important;
+  border-radius: 6px !important;
+  color: var(--rainbow-folder-text) !important;
+  font-weight: 650 !important;
+  margin-bottom: 3px !important;
+  --nav-item-color: var(--rainbow-folder-text) !important;
+  --nav-item-color-hover: var(--rainbow-folder-text) !important;
+  --nav-collapse-icon-color: var(--rainbow-folder-text) !important;
+}
+
+.nav-files-container .nav-folder > .tree-item-self.nav-folder-title *,
+.nav-files-container .nav-folder > .nav-folder-title * {
+  color: var(--rainbow-folder-text) !important;
+  stroke: var(--rainbow-folder-text) !important;
+}
+
+.nav-files-container .nav-folder > .tree-item-self.nav-folder-title:hover,
+.nav-files-container .nav-folder > .nav-folder-title:hover {
+  background-color: var(--rainbow-folder-bg-hover) !important;
+}
+
+/* Color notes inside each folder to match the containing folder. */
+.nav-files-container .nav-folder > .nav-folder-children .nav-file-title {
+  background-color: var(--rainbow-file-bg) !important;
+  border-radius: 5px !important;
+  color: var(--rainbow-folder-text) !important;
+  margin-bottom: 2px !important;
+}
+
+.nav-files-container .nav-folder > .nav-folder-children .nav-file-title * {
+  color: var(--rainbow-folder-text) !important;
+  stroke: var(--rainbow-folder-text) !important;
+}
+
+/* Color root-level dashboard/map files. */
+.nav-file-title[data-path$="KnowledgeBase Home.md"],
+.nav-file-title[data-path$="KnowledgeBase Home.md"] *,
+.nav-file-title[data-path$="00 Home.md"],
+.nav-file-title[data-path$="00 Home.md"] *,
+.nav-file-title[data-path$="KnowledgeBase Docs.base"],
+.nav-file-title[data-path$="KnowledgeBase Docs.base"] *,
+.nav-file-title[data-path$="KnowledgeBase Map.canvas"],
+.nav-file-title[data-path$="KnowledgeBase Map.canvas"] * {
+  color: #11b7c5 !important;
+  stroke: #11b7c5 !important;
+}
+
+/* Lightweight file icons without a plugin. */
+.nav-file-title-content::before {
+  content: "";
+  display: inline-block;
+  width: 0.95em;
+  height: 1.08em;
+  margin-right: 0.45em;
+  vertical-align: -0.12em;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background:
+    linear-gradient(135deg, transparent 0 48%, currentColor 50% 100%) top right / 0.34em 0.34em no-repeat,
+    linear-gradient(135deg, transparent 0 48%, var(--background-primary, #1e1e1e) 50% 100%) top right / 0.25em 0.25em no-repeat,
+    linear-gradient(currentColor 0 0) 0.18em 0.36em / 0.5em 2px no-repeat,
+    linear-gradient(currentColor 0 0) 0.18em 0.56em / 0.56em 2px no-repeat,
+    linear-gradient(currentColor 0 0) 0.18em 0.76em / 0.42em 2px no-repeat;
+  opacity: 0.92;
+}
+
+.nav-file-title[data-path$=".canvas"] .nav-file-title-content::before {
+  width: 1.08em;
+  height: 1.08em;
+  border: 0;
+  border-radius: 0;
+  background:
+    radial-gradient(circle, currentColor 0 34%, transparent 36%) 0.03em 0.12em / 0.34em 0.34em no-repeat,
+    radial-gradient(circle, currentColor 0 34%, transparent 36%) 0.7em 0.08em / 0.34em 0.34em no-repeat,
+    radial-gradient(circle, currentColor 0 34%, transparent 36%) 0.19em 0.72em / 0.34em 0.34em no-repeat,
+    radial-gradient(circle, currentColor 0 34%, transparent 36%) 0.74em 0.66em / 0.34em 0.34em no-repeat,
+    linear-gradient(8deg, transparent 43%, currentColor 45% 55%, transparent 57%) 0.28em 0.22em / 0.5em 0.2em no-repeat,
+    linear-gradient(72deg, transparent 43%, currentColor 45% 55%, transparent 57%) 0.2em 0.39em / 0.25em 0.48em no-repeat,
+    linear-gradient(40deg, transparent 43%, currentColor 45% 55%, transparent 57%) 0.43em 0.48em / 0.45em 0.35em no-repeat;
+}
+
+.nav-file-title[data-path$=".base"] .nav-file-title-content::before {
+  width: 0.98em;
+  height: 1.08em;
+  border-radius: 2px 5px 5px 2px;
+  border-left-width: 3px;
+  background:
+    radial-gradient(ellipse at center, transparent 0 54%, currentColor 56% 68%, transparent 70%) 0.23em 0.13em / 0.48em 0.18em no-repeat,
+    linear-gradient(currentColor 0 0) 0.23em 0.21em / 0.48em 2px no-repeat,
+    linear-gradient(currentColor 0 0) 0.23em 0.45em / 0.48em 2px no-repeat,
+    linear-gradient(currentColor 0 0) 0.23em 0.69em / 0.48em 2px no-repeat,
+    linear-gradient(90deg, currentColor 0 2px, transparent 2px) 0.12em 0.06em / 0.18em 0.9em no-repeat;
+}
